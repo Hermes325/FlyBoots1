@@ -1,0 +1,33 @@
+.catalogGrid {
+    display              : grid;
+    grid-template-columns: repeat(3, 33vw);
+    justify-items        : center;
+
+}
+
+.vw27 {
+
+    width: 27vw;
+}
+
+.child {
+    background-image : url('/картинки/child.png');
+    background-repeat: no-repeat;
+    width            : 26vw;
+    height           : 60vw;
+    
+}
+
+.man {
+    background-image : url('/картинки/man.png');
+    background-repeat: no-repeat;
+    width            : 26vw;
+    height           : 60vw;
+}
+
+.woman {
+    background-image : url('/картинки/woman.png');
+    background-repeat: no-repeat;
+    width            : 26vw;
+    height           : 60vw;
+}
