@@ -11,23 +11,24 @@
 }
 
 .child {
-    background-image : url('/картинки/child.png');
-    background-repeat: no-repeat;
-    width            : 26vw;
-    height           : 60vw;
-    
+
+    position: relative;
 }
 
-.man {
-    background-image : url('/картинки/man.png');
-    background-repeat: no-repeat;
-    width            : 26vw;
-    height           : 60vw;
+
+
+/* Стиль кнопки и поместите его в середине контейнера/изображения */
+.btn {
+    position       : absolute;
+    top            : 95%;
+    left           : 80%;
+    transform      : translate(-70%, -70%);
+    background     : url(/картинки/button.png) no-repeat;
+    background-size: contain;
+    width          : 12vw;
+    height         : 6vw;
+    border         : none;
+    cursor         : pointer;
+
 }
 
-.woman {
-    background-image : url('/картинки/woman.png');
-    background-repeat: no-repeat;
-    width            : 26vw;
-    height           : 60vw;
-}
