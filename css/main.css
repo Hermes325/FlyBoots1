@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Roboto&display=swap');
 
 
@@ -25,8 +24,6 @@ body {
 
 
 .ramka {
-
-
     position       : absolute;
     width          : 40vw;
     height         : 4vw;
@@ -38,19 +35,18 @@ body {
     border-radius  : 12px;
 }
 
-.margin_top45
-{
+.margin_top45 {
     margin-top: 45px;
 }
-.margin_top200
-{
-    margin-top: 200px;
+
+.margin_top90 {
+    margin-top: 90px;
 }
 
-.margin_left115
-{
+.margin_left115 {
     margin-left: 6vw;
 }
+
 .logotip {
 
     display        : flex;
@@ -62,8 +58,274 @@ a {
     color          : #F5F5F5;
 }
 
-.vw66
-{
+.vw66 {
     width: 66vw;
 }
 
+
+.shnurki {
+    position: absolute;
+    width   : 93.5vw;
+    top     : 12%;
+}
+
+.dvigaem {
+    position     : absolute;
+    width        : 25vw;
+    left         : 5%;
+    top          : 7%;
+    margin-bottom: 0;
+}
+
+.dvigaem2 {
+    position: absolute;
+    width   : 27vw;
+    left    : 5%;
+    top     : 40%;
+
+}
+
+.dvigaem3 {
+    position: absolute;
+    width   : 26vw;
+    left    : 70%;
+    top     : 45%;
+
+}
+
+.dvigaem4 {
+    position: absolute;
+    width   : 14vw;
+    left    : 67%;
+    top     : 63%;
+
+}
+
+.dvigaem5 {
+    position: absolute;
+    width   : 27vw;
+    left    : 67%;
+    top     : 76%;
+
+}
+
+.position_rel {
+    position: relative;
+    width   : 99vw;
+    height  : 62vw;
+}
+
+
+
+.krugmain {
+    position: absolute;
+    width   : 29vw;
+    height  : 29vw;
+    top     : 17%;
+
+    background: linear-gradient(180deg, #D94E29 47.97%, #010101 100%);
+    box-shadow: 0px -10px 64px rgba(217, 78, 41, 0.9);
+
+    border-radius: 50%;
+
+}
+
+.krug1 {
+    position: absolute;
+    width   : 7vw;
+    height  : 7vw;
+    left    : 70.7%;
+    top     : 11%;
+
+    background   : linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    transform    : rotate(-167.59deg);
+    border-radius: 50%;
+
+}
+
+.krug2 {
+    position: absolute;
+    width   : 7vw;
+    height  : 7vw;
+    left    : 25%;
+    top     : 53.2%;
+
+    background   : linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    border-radius: 50%;
+}
+
+.krug3 {
+    position: absolute;
+    width   : 7vw;
+    height  : 7vw;
+    left    : 24%;
+    top     : 78.2%;
+
+    background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
+    box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
+    border-radius: 50%;
+
+}
+
+.krug4 {
+    position: absolute;
+    width   : 7vw;
+    height  : 7vw;
+    left    : 4%;
+    top     : 85.1%;
+
+    background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
+    border-radius: 50%;
+
+}
+
+.Logotip {
+    position: absolute;
+    width   : 21vw;
+    height  : 26vw;
+    left    : 40%;
+    top     : 12%;
+}
+
+.ramochka1 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width   : 32vw;
+    height  : 21vw;
+    right   : 3%;
+    top     : 65%;
+
+    background     : rgba(1, 1, 1, 0.6);
+    border         : 2px solid rgba(245, 245, 245, 0.2);
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+
+}
+
+.ramochka2 {
+    box-sizing: border-box;
+
+    position: absolute;
+    width   : 32vw;
+    height  : 21vw;
+    right   : 2%;
+    top     : 66.5%;
+
+    border       : 2px solid #D94E29;
+    border-radius: 30px;
+}
+
+.globus {
+    position: absolute;
+    top     : 68%;
+    left    : 92%;
+    z-index : 2;
+    width   : 4vw;
+    height  : 4vw;
+}
+
+
+
+
+.avito {
+    position: absolute;
+
+    /** calc(10px + ...) - из-за самой картинки */
+    bottom       : max(15px, 20px);
+    right        : max(15px, 23%);
+    padding      : 0.3vw 4.7vw 0.5vw 1.6vw;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 14px;
+
+    cursor: pointer;
+    border: none;
+
+    background: #ffffff;
+
+    /** Текст кнопки */
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.5vw;
+    line-height: 35px;
+    /* identical to box height */
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #010101;
+}
+
+.avito>img {
+    position: absolute;
+    right   : 0.70rem;
+    top     : 0.15rem;
+}
+
+
+.vk {
+    position: absolute;
+
+    /** calc(10px + ...) - из-за самой картинки */
+    bottom       : max(15px, 20px);
+    right        : max(15px, 19%);
+    padding      : 1.8vw;
+    background   : #0077FF;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+
+
+    cursor: pointer;
+    border: none;
+
+    
+
+    /* identical to box height */
+
+    text-align    : center;
+    height: 2vw;
+    width: 2vw;
+
+    color: #010101;
+}
+
+.vk>img {
+    position: absolute;
+    right   : 0.5rem;
+    top     : 0.4rem;
+}
+
+
+.tg {
+    position: absolute;
+
+    /** calc(10px + ...) - из-за самой картинки */
+    bottom       : max(15px, 20px);
+    right        : max(15px, 15%);
+    padding      : 1.8vw;
+    background: #009BFF;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 13px;
+
+
+    cursor: pointer;
+    border: none;
+
+    
+
+    /* identical to box height */
+
+    text-align    : center;
+    
+
+    color: #010101;
+}
+
+.tg>img {
+    position: absolute;
+    right   : 22%;
+    top     : 15%;
+}
