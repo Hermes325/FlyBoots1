@@ -1,6 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500&family=Roboto&display=swap');
 
 
+* {
+    margin : 0;
+    padding: 0;
+}
+
+
 body {
     background-color: black;
 }
@@ -281,13 +287,13 @@ a {
     cursor: pointer;
     border: none;
 
-    
+
 
     /* identical to box height */
 
-    text-align    : center;
-    height: 2vw;
-    width: 2vw;
+    text-align: center;
+    height    : 2vw;
+    width     : 2vw;
 
     color: #010101;
 }
@@ -306,20 +312,20 @@ a {
     bottom       : max(15px, 20px);
     right        : max(15px, 15%);
     padding      : 1.8vw;
-    background: #009BFF;
-    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    background   : #009BFF;
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
     border-radius: 13px;
 
 
     cursor: pointer;
     border: none;
 
-    
+
 
     /* identical to box height */
 
-    text-align    : center;
-    
+    text-align: center;
+
 
     color: #010101;
 }
