@@ -36,13 +36,13 @@ body {
     border-style   : solid;
     background     : rgba(1, 1, 1, 0.1);
     border-color   : rgba(245, 245, 245, 0.2);
-    border-width   : 2px;
+    border-width   : 0.2vw;
     backdrop-filter: blur(37.5px);
-    border-radius  : 12px;
+    border-radius  : 1.7vw;
 }
 
 .margin_top45 {
-    margin-top: 45px;
+    margin-top: 2.7vw;
 }
 
 .margin_top90 {
@@ -143,7 +143,9 @@ a {
     left    : 70.7%;
     top     : 11%;
 
-    background   : linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
+
     transform    : rotate(-167.59deg);
     border-radius: 50%;
 
@@ -156,7 +158,9 @@ a {
     left    : 25%;
     top     : 53.2%;
 
-    background   : linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
+    box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
+
     border-radius: 50%;
 }
 
@@ -180,7 +184,9 @@ a {
     left    : 4%;
     top     : 85.1%;
 
-    background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
+    background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
+    box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
+
     border-radius: 50%;
 
 }
@@ -207,7 +213,8 @@ a {
     backdrop-filter: blur(37px);
     /* Note        : backdrop-filter has minimal browser support */
 
-    border-radius: 30px;
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
 
 }
 
@@ -221,7 +228,8 @@ a {
     top     : 66.5%;
 
     border       : 2px solid #D94E29;
-    border-radius: 30px;
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
 }
 
 .globus {
