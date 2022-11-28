@@ -4,7 +4,7 @@ h1 {
     font-style : normal;
     font-weight: 400;
     font-size  : 7vw;
-    line-height: 7vw;
+    line-height: 6vw;
     /* or 106% */
 
     letter-spacing: 0.02em;
@@ -16,8 +16,8 @@ h1 {
     font-family: 'Montserrat';
     font-style : normal;
     font-weight: 700;
-    font-size  : 60px;
-    line-height: 73px;
+    font-size  : 3.5vw;
+    line-height: 3.80vw;
 
     color: #F5F5F5;
 
@@ -45,7 +45,7 @@ h1 {
     font-style : normal;
     font-weight: 400;
     font-size  : 1.4vw;
-    line-height: 2.1vw;
+    line-height: 1.8vw;
     /* or 185% */
     text-align    : left;
     letter-spacing: 0.02em;
@@ -58,7 +58,7 @@ h1 {
     font-style : normal;
     font-weight: 400;
     font-size  : 1.4vw;
-    line-height: 2.1vw;
+    line-height: 1.8vw;
     /* or 158% */
 
     text-align    : right;
@@ -100,8 +100,8 @@ h1 {
     font-family: 'Roboto';
     font-style : normal;
     font-weight: 400;
-    font-size  : 20px;
-    line-height: 38px;
+    font-size  : 1.4vw;
+    line-height: 2.2vw;
 
     text-align    : center;
     letter-spacing: 0.04em;
