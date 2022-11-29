@@ -49,15 +49,14 @@ body {
     margin-top: 3vw;
 }
 
-.margin_top5vw
-{
+.margin_top5vw {
     margin-top: 5vw;
 }
 
-.margin_top8vw
-{
+.margin_top8vw {
     margin-top: 8vw;
 }
+
 .margin_top90 {
     margin-top: 90px;
 }
@@ -99,7 +98,7 @@ a {
 
 
 .dvigaem3 {
-   position: absolute;
+    position: absolute;
     width   : 26vw;
     left    : 69%;
     top     : 43%;
@@ -202,27 +201,43 @@ a {
     top     : 12%;
 }
 
-.ramochka_top {
+/*.ramochka_top {
     position: absolute;
     top     : 63%;
     right   : 3%;
     height  : 21vw;
     width   : 32vw;
+}
+*/
+.ramochka_top {
+    display        : flex;
+    justify-content: flex-end;
+    margin-right   : 5%;
+    margin-top     : -28.5%;
 
+}
+
+.ramochka_top2 {
+    display        : flex;
+    justify-content: flex-end;
+    margin-right   : -1%;
+    margin-top     : 1%;
 
 }
 
 
+
+
 .ramochka1 {
 
-
+    z-index   : 5;
     box-sizing: border-box;
 
-    position: absolute;
-    width   : 32vw;
-    height  : 21vw;
-    right   : 3%;
-    
+
+    width : 32vw;
+    height: 21vw;
+
+
 
     background     : rgba(1, 1, 1, 0.6);
     border         : 2px solid rgba(245, 245, 245, 0.2);
@@ -240,8 +255,8 @@ a {
     position: absolute;
     width   : 32vw;
     height  : 21vw;
-    right   : 2%;
-    top     : 1.5%;
+
+
 
     border       : 2px solid #D94E29;
     border-radius: 1.9vw;
