@@ -16,6 +16,7 @@
 .cesar {
     width : 17.26vw;
     height: 25.76vw;
+    overflow-x: hidden;
 }
 
 
