@@ -12,12 +12,38 @@ h1 {
     color: #F5F5F5;
 
 }
+
+h2 {
+
+    font-family: 'Departura';
+    font-style : italic;
+    font-weight: 700;
+    font-size  : 4vw;
+    line-height: 87px;
+    /* identical to box height */
+
+    letter-spacing: 0.02em;
+
+    color: #F5F5F5;
+}
+
 .Montserrat700 {
     font-family: 'Montserrat';
     font-style : normal;
     font-weight: 700;
     font-size  : 3.5vw;
     line-height: 3.80vw;
+
+    color: #F5F5F5;
+
+}
+
+.Montserrat700_citata {
+    font-family: 'Montserrat';
+    font-style : normal;
+    font-weight: 700;
+    font-size  : 2vw;
+
 
     color: #F5F5F5;
 
@@ -41,11 +67,11 @@ h1 {
 }
 
 .jost400_2 {
-    font-family: 'Jost';
-    font-style : normal;
-    font-weight: 400;
-    font-size  : 1.4vw;
-    line-height: 1.8vw;
+    font-family   : 'Jost';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 1.4vw;
+    line-height   : 1.8vw;
     /* or 185% */
     text-align    : left;
     letter-spacing: 0.02em;
@@ -101,11 +127,25 @@ h1 {
     font-style : normal;
     font-weight: 400;
     font-size  : 1.4vw;
-    line-height: 2.2vw;
+    line-height: 1.7vw;
 
     text-align    : center;
     letter-spacing: 0.04em;
 
     color: #F5F5F5;
 
+}
+
+
+.bledno {
+
+    margin-top: 1.5vw;
+    font-family   : 'Jost';
+    font-style    : normal;
+    font-weight   : 400;
+    font-size     : 1.8vw;
+    line-height   : 33px;
+    letter-spacing: 0.02em;
+
+    color: rgba(245, 245, 245, 0.9);
 }

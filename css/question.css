@@ -1,0 +1,56 @@
+.we_in_VK {
+
+    box-sizing: border-box;
+
+    width : 23vw;
+    height: 9vw;
+
+    margin-top: 15%;
+
+    background: #0077FF;
+
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
+}
+
+.we_in_TG {
+    box-sizing: border-box;
+
+    width : 23vw;
+    height: 9vw;
+
+    margin-top: 4%;
+
+    background: #009BFF;
+
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
+}
+
+.we_in_avito {
+    box-sizing: border-box;
+
+    width      : 19vw;
+    height     : 19vw;
+    margin-top: 8%;
+    margin-left: 1vw;
+   
+
+    background: #F5F5F5;
+
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
+
+    border-radius: 1.9vw;
+    border-width : 0.2vw;
+}
+
+.flex {
+    display: flex;
+}

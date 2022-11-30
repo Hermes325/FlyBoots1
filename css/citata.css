@@ -1,0 +1,48 @@
+.flex_end {
+    margin-top     : 7vw;
+    display        : flex;
+    justify-content: space-between;
+    align-items    : flex-end;
+
+}
+
+.david {
+    width        : 22.3vw;
+    height       : 32.5vw;
+    margin-bottom: 3vw;
+
+}
+
+.cesar {
+    width : 17.26vw;
+    height: 25.76vw;
+}
+
+
+
+.citata_david {
+    transform: translate(2vw, -20vw);
+    
+   
+}
+
+.citata_cesar {
+
+    transform: translate(-1vw, -10vw);
+    
+    
+}
+
+.slova_cesar
+{
+    
+    transform: translate(1vw, -8vw);
+}
+
+.slova_david
+{
+    width: 38vw;
+    
+    transform: translate(1.5vw, -9.8vw);
+}
+

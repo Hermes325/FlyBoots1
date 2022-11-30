@@ -74,6 +74,7 @@ body {
 a {
     text-decoration: none;
     color          : #F5F5F5;
+
 }
 
 .vw66 {
@@ -97,12 +98,7 @@ a {
 }
 
 
-.dvigaem3 {
-    position: absolute;
-    width   : 26vw;
-    left    : 69%;
-    top     : 43%;
-}
+
 
 .dvigaem4 {
     position: absolute;
@@ -213,7 +209,7 @@ a {
     display        : flex;
     justify-content: flex-end;
     margin-right   : 5%;
-    margin-top     : -28.5%;
+    margin-top     : -24.5%;
 
 }
 
@@ -222,6 +218,17 @@ a {
     justify-content: flex-end;
     margin-right   : -1%;
     margin-top     : 1%;
+
+}
+
+
+.text_top {
+    display        : flex;
+    justify-content: flex-end;
+
+
+    margin-right: 4%;
+    margin-top  : -40%;
 
 }
 
@@ -236,6 +243,8 @@ a {
 
     width : 32vw;
     height: 21vw;
+
+    margin-top: 30%;
 
 
 
@@ -252,9 +261,10 @@ a {
 .ramochka2 {
     box-sizing: border-box;
 
-    position: absolute;
-    width   : 32vw;
-    height  : 21vw;
+    position  : absolute;
+    width     : 32vw;
+    height    : 21vw;
+    margin-top: 30%;
 
 
 
