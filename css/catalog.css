@@ -57,7 +57,7 @@
     width   : 27vw;
     height  : 34.467vw;
 
-    background-image : url(/картинки/child.png);
+    background-image : url(./картинки/child.png);
     background-repeat: no-repeat;
     background-size  : cover;
 
@@ -68,7 +68,7 @@
     width   : 27vw;
     height  : 34.467vw;
 
-    background-image : url(/картинки/man.png);
+    background-image : url(./картинки/man.png);
     background-repeat: no-repeat;
     background-size  : cover;
 
@@ -79,7 +79,7 @@
     width   : 27vw;
     height  : 34.467vw;
 
-    background-image : url(/картинки/woman.png);
+    background-image : url(./картинки/woman.png);
     background-repeat: no-repeat;
     background-size  : cover;
 
