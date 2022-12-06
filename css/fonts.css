@@ -3,8 +3,8 @@ h1 {
     font-family: 'Nofex';
     font-style : normal;
     font-weight: 400;
-    font-size  : 7vw;
-    line-height: 6vw;
+    font-size  : 7.813rem;
+    line-height: 8.313rem;
     /* or 106% */
 
     letter-spacing: 0.02em;
@@ -56,8 +56,8 @@ h2 {
     font-family: 'Jost';
     font-style : normal;
     font-weight: 400;
-    font-size  : 1.4vw;
-    line-height: 39px;
+    font-size  : 1.438rem;
+    line-height: 2.438rem;
     /* identical to box height, or 170% */
 
     text-align    : center;
@@ -97,8 +97,8 @@ h2 {
     font-family: 'Jost';
     font-style : normal;
     font-weight: 400;
-    font-size  : 2.2vw;
-    line-height: 2.4vw;
+    font-size  : 1.688rem;
+    line-height: 2.063rem;
     /* or 122% */
 
     letter-spacing: 0.02em;

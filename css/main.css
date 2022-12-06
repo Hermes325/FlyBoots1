@@ -14,6 +14,7 @@ body {
 nav
 {
     height: 5vw;
+    
 }
 
 .flex_items_center {
@@ -52,7 +53,7 @@ nav
 }
 
 .margin_top45 {
-    margin-top: 3vw;
+    margin-top: 1.2vw;
 }
 
 .margin_top5vw {
@@ -90,8 +91,9 @@ a {
 
 .shnurki {
     position: absolute;
-    width   : 93.5vw;
+    width   : 88.65vw;
     top     : 12%;
+    height: 57.1vw;
 }
 
 .dvigaem {
@@ -129,8 +131,8 @@ a {
 
 .krugmain {
     position: absolute;
-    width   : 29vw;
-    height  : 29vw;
+    width   : 26.459vw;
+    height  : 26.459vw;
     top     : 17%;
 
     background: linear-gradient(180deg, #D94E29 47.97%, #010101 100%);
@@ -142,8 +144,8 @@ a {
 
 .krug1 {
     position: absolute;
-    width   : 7vw;
-    height  : 7vw;
+    width   : 5.7vw;
+    height  : 5.7vw;
     left    : 70.7%;
     top     : 11%;
 
@@ -157,8 +159,8 @@ a {
 
 .krug2 {
     position: absolute;
-    width   : 7vw;
-    height  : 7vw;
+    width   : 5.7vw;
+    height  : 5.7vw;
     left    : 25%;
     top     : 53.2%;
 
@@ -170,8 +172,8 @@ a {
 
 .krug3 {
     position: absolute;
-    width   : 7vw;
-    height  : 7vw;
+    width   : 6.72vw;
+    height  : 6.72vw;
     left    : 24%;
     top     : 78.2%;
 
@@ -183,8 +185,8 @@ a {
 
 .krug4 {
     position: absolute;
-    width   : 7vw;
-    height  : 7vw;
+    width   : 8.282vw;
+    height  : 8.282vw;
     left    : 4%;
     top     : 85.1%;
 
@@ -197,8 +199,8 @@ a {
 
 .Logotip {
     position: absolute;
-    width   : 21vw;
-    height  : 26vw;
+    width   : 18.2vw;
+    height  : 23.45vw;
     left    : 40%;
     top     : 12%;
 }
@@ -215,7 +217,7 @@ a {
     display        : flex;
     justify-content: flex-end;
     margin-right   : 5%;
-    margin-top     : -24.5%;
+    margin-top     : -23.5%;
 
 }
 
@@ -234,7 +236,7 @@ a {
 
 
     margin-right: 4%;
-    margin-top  : -40%;
+    margin-top  : -50%;
 
 }
 
@@ -247,8 +249,8 @@ a {
     box-sizing: border-box;
 
 
-    width : 32vw;
-    height: 21vw;
+    width : 30.295vw;
+    height: 18.628vw;
 
     margin-top: 30%;
 
@@ -268,9 +270,9 @@ a {
     box-sizing: border-box;
 
     position  : absolute;
-    width     : 32vw;
-    height    : 21vw;
-    margin-top: 30%;
+    width     : 30.295vw;
+    height    : 18.628vw;
+    margin-top: 29.4%;
 
 
 
@@ -297,7 +299,7 @@ a {
     /** calc(10px + ...) - из-за самой картинки */
     top          : 72%;
     right        : max(15px, 62%);
-    padding      : 0.8vw 4.7vw 0.8vw 1.6vw;
+    padding      : 0.45vw 4.7vw 0.5vw 1.2vw;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0.92vw;
 
@@ -320,9 +322,9 @@ a {
 
 .avito>img {
     position : absolute;
-    transform: translate(50%, -10%);
-    height   : 2.8vw;
-    width    : 2.8vw;
+    transform: translate(70%);
+    height   : 2.136vw;
+    width    : 2.188vw;
 
 }
 
@@ -333,7 +335,7 @@ a {
     /** calc(10px + ...) - из-за самой картинки */
     top          : 72%;
     right        : max(15px, 48%);
-    padding      : 1.8vw;
+    padding      : 1.563vw;
     background   : #0077FF;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0.9vw;
@@ -356,8 +358,8 @@ a {
 .vk>img {
     position : absolute;
     transform: translate(-50%, -50%);
-    height   : 2.8vw;
-    width    : 2.8vw;
+    height: 1.823vw;
+    width: 1.875vw;
 }
 
 
@@ -367,7 +369,7 @@ a {
     /** calc(10px + ...) - из-за самой картинки */
     top          : 72%;
     right        : max(15px, 34%);
-    padding      : 1.8vw;
+    padding      : 1.563vw;
     background   : #009BFF;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0.9vw;
@@ -388,7 +390,7 @@ a {
 
 .tg>img {
     position : absolute;
-    transform: translate(-52%, -50%);
-    height   : 2.8vw;
-    width    : 2.8vw;
+    transform: translate(-50%, -50%);
+    height: 1.875vw;
+    width: 1.875vw;
 }
