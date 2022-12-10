@@ -14,8 +14,8 @@
 }
 
 .cesar {
-    width : 17.26vw;
-    height: 25.76vw;
+    width     : 17.26vw;
+    height    : 25.76vw;
     overflow-x: hidden;
 }
 
@@ -23,27 +23,35 @@
 
 .citata_david {
     transform: translate(2vw, -20vw);
-    
-   
+
+
 }
 
 .citata_cesar {
 
     transform: translate(-1vw, -10vw);
-    
-    
+
+
 }
 
-.slova_cesar
-{
-    
-    transform: translate(1vw, -8vw);
+.slova_cesar {
+
+    transform: translate(1.5vw, -9.5vw);
 }
 
-.slova_david
-{
+.slova_david {
     width: 38vw;
-    
-    transform: translate(1.5vw, -9.8vw);
+
+    transform: translate(2.5vw, -11vw);
 }
 
+
+.zakazat {
+    background   : linear-gradient(86.36deg, #E2167A 0%, #DC640F 100%);
+    box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+    width        : 27.865vw;
+    height       : 4.167vw;
+
+    transform: translate(0, -7vw);
+}

@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+a
+{
+    z-index: 10;
+}
 
 body {
     background-color: black;
@@ -36,7 +40,7 @@ nav
 
 
 .ramka {
-    position       : absolute;
+    z-index: 1;
     width          : 40vw;
     height         : 4vw;
     border-style   : solid;
@@ -146,8 +150,8 @@ a {
     position: absolute;
     width   : 5.7vw;
     height  : 5.7vw;
-    left    : 70.7%;
-    top     : 11%;
+    left    : 67.7%;
+    top     : 12.45%;
 
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -162,7 +166,7 @@ a {
     width   : 5.7vw;
     height  : 5.7vw;
     left    : 25%;
-    top     : 53.2%;
+    top     : 52%;
 
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -175,7 +179,7 @@ a {
     width   : 6.72vw;
     height  : 6.72vw;
     left    : 24%;
-    top     : 78.2%;
+    top     : 73.2%;
 
     background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -188,7 +192,7 @@ a {
     width   : 8.282vw;
     height  : 8.282vw;
     left    : 4%;
-    top     : 85.1%;
+    top     : 76.7%;
 
     background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -334,7 +338,7 @@ a {
 
     /** calc(10px + ...) - из-за самой картинки */
     top          : 72%;
-    right        : max(15px, 48%);
+    right        : max(15px, 50%);
     padding      : 1.563vw;
     background   : #0077FF;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -368,7 +372,7 @@ a {
 
     /** calc(10px + ...) - из-за самой картинки */
     top          : 72%;
-    right        : max(15px, 34%);
+    right        : max(15px, 38%);
     padding      : 1.563vw;
     background   : #009BFF;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);

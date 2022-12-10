@@ -1,7 +1,8 @@
 .catalogGrid {
     display              : grid;
-    grid-template-columns: repeat(3, 33vw);
+    grid-template-columns: repeat(3, 29vw);
     justify-items        : center;
+    justify-content: center;
 
 }
 
@@ -84,4 +85,6 @@
     background-size  : cover;
 
     border-radius: 1vw;
+
+    
 }

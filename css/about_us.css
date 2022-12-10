@@ -7,8 +7,11 @@
 }
 
 .flex_colomn {
+    
     flex-direction: column;
 }
+
+
 
 
 .text {
