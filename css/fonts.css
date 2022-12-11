@@ -76,6 +76,20 @@ h4 {
 
 }
 
+.Montserrat700_2 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3.438rem;
+    line-height: 4.063rem;
+    /* or 118% */
+    
+    letter-spacing: 0.02em;
+    
+    color: #FFC700;
+}
+
+
 
 
 
@@ -181,6 +195,21 @@ h4 {
 
 }
 
+.jost400_8{
+    font-family: 'Jost';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 39px;
+/* identical to box height, or 195% */
+
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #010101;
+
+}
+
 
 .jost500 {
     font-family: 'Jost';
@@ -212,6 +241,23 @@ h4 {
 
 }
 
+
+.jost500_2 {
+    font-family: 'Jost';
+    font-style : normal;
+    font-weight: 500;
+    font-size  : 1.563rem;
+    line-height: 1.875rem;
+    /* identical to box height, or 115% */
+
+    text-align    : center;
+    letter-spacing: 0.04em;
+
+    color: #FAFAFA;
+
+
+}
+
 .Roboto400 {
     font-family: 'Roboto';
     font-style : normal;
@@ -232,6 +278,19 @@ h4 {
     font-weight: 400;
     font-size  : 1.063rem;
     line-height: 1.813rem;
+    /* or 171% */
+
+    letter-spacing: 0.04em;
+
+    color: rgba(245, 245, 245, 0.9);
+
+}
+.Roboto400_2 {
+    font-family: 'Roboto';
+    font-style : normal;
+    font-weight: 400;
+    font-size  : 1.125rem;
+    line-height: 2rem;
     /* or 171% */
 
     letter-spacing: 0.04em;

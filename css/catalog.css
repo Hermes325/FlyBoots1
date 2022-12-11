@@ -2,7 +2,7 @@
     display              : grid;
     grid-template-columns: repeat(3, 29vw);
     justify-items        : center;
-    justify-content: center;
+    justify-content      : center;
 
 }
 
@@ -16,6 +16,28 @@
 .woman {
 
     position: relative;
+}
+
+
+
+
+.card:hover {
+    transform: scale(1.03);
+
+
+}
+
+.card::before {
+    content  : "";
+    position : absolute;
+    top      : -64px;
+    left     : -64px;
+    width    : 150%;
+    height   : 76%;
+    transform: rotate(-12deg);
+    z-index  : -1;
+
+
 }
 
 
@@ -40,7 +62,7 @@
 
     text-align    : center;
     letter-spacing: 0.04em;
-    z-index: 5;
+    z-index       : 5;
 }
 
 .btn>img {
@@ -48,43 +70,55 @@
     transform: translate(70%, 20%);
     height   : 1.3vw;
     width    : 1.3vw;
-    
+
 }
 
+
+.cata
+{
+    position: relative;
+    width   : 27vw;
+    height  : 34.467vw;
+    background-repeat: no-repeat;
+    background-size  : cover;
+
+    border-radius: 1vw;
+
+    transition: 0.20s;
+}
 
 
 .ramochka_child {
-    position: relative;
-    width   : 27vw;
-    height  : 34.467vw;
+   
 
     background-image : url(../картинки/child.png);
-    background-repeat: no-repeat;
-    background-size  : cover;
-
-    border-radius: 1vw;
-}
-.ramochka_man {
-    position: relative;
-    width   : 27vw;
-    height  : 34.467vw;
-
-    background-image : url(../картинки/man.png);
-    background-repeat: no-repeat;
-    background-size  : cover;
-
-    border-radius: 1vw;
-}
-.ramochka_woman {
-    position: relative;
-    width   : 27vw;
-    height  : 34.467vw;
-
-    background-image : url(../картинки/woman.png);
-    background-repeat: no-repeat;
-    background-size  : cover;
-
-    border-radius: 1vw;
-
     
 }
+
+.ramochka_man {
+  
+
+    background-image : url(../картинки/man.png);
+    
+}
+
+.ramochka_woman {
+   
+    background-image : url(../картинки/woman.png);
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

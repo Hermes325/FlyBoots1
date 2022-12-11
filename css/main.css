@@ -6,8 +6,7 @@
     padding: 0;
 }
 
-a
-{
+a {
     z-index: 10;
 }
 
@@ -15,10 +14,9 @@ body {
     background-color: black;
 }
 
-nav
-{
+nav {
     height: 5vw;
-    
+
 }
 
 .flex_items_center {
@@ -41,7 +39,9 @@ nav
 
 .ramka {
     z-index: 1;
-    width          : 40vw;
+
+    padding-left   : 2vw;
+    padding-right  : 2vw;
     height         : 4vw;
     border-style   : solid;
     background     : rgba(1, 1, 1, 0.1);
@@ -49,7 +49,7 @@ nav
     border-width   : 0.2vw;
     backdrop-filter: blur(37.5px);
     border-radius  : 1.7vw;
-   
+
 }
 
 .margin_top10 {
@@ -97,7 +97,7 @@ a {
     position: absolute;
     width   : 88.65vw;
     top     : 12%;
-    height: 57.1vw;
+    height  : 57.1vw;
 }
 
 .dvigaem {
@@ -112,13 +112,7 @@ a {
 
 
 
-.dvigaem4 {
-    position: absolute;
-    width   : 14vw;
-    left    : 6%;
-    top     : 5%;
 
-}
 
 .margin_top1vw {
     margin-top: 1vw;
@@ -209,38 +203,21 @@ a {
     top     : 12%;
 }
 
-/*.ramochka_top {
-    position: absolute;
-    top     : 63%;
-    right   : 3%;
-    height  : 21vw;
-    width   : 32vw;
-}
-*/
-.ramochka_top {
-    display        : flex;
-    justify-content: flex-end;
-    margin-right   : 5%;
-    margin-top     : -23.5%;
+.grid_ramochka {
+    display           : grid;
+    grid-template-rows: repeat(2, 120px);
+    grid-row-gap      : 5vw;
+
 
 }
 
-.ramochka_top2 {
-    display        : flex;
-    justify-content: flex-end;
-    margin-right   : -1%;
-    margin-top     : 1%;
-
-}
 
 
 .text_top {
     display        : flex;
     justify-content: flex-end;
-
-
-    margin-right: 4%;
-    margin-top  : -50%;
+    margin-right   : 4%;
+    margin-top     : -50%;
 
 }
 
@@ -249,59 +226,53 @@ a {
 
 .ramochka1 {
 
+
+    position: relative;
+
+    right: 15px;
+    top: -15px;
+    background: rgb(1, 1, 1);
     z-index   : 5;
     box-sizing: border-box;
 
-
-    width : 30.295vw;
-    height: 18.628vw;
-
-    margin-top: 30%;
-
-
-
-    background     : rgba(1, 1, 1, 0.6);
-    border         : 2px solid rgba(245, 245, 245, 0.2);
+    border         : 20px solid rgba(245, 245, 245, 0.2);
     backdrop-filter: blur(37px);
     /* Note        : backdrop-filter has minimal browser support */
 
-    border-radius: 1.9vw;
-    border-width : 0.2vw;
-
+    border-radius: 30px;
+    border-width : 0.2vw;   
 }
 
 .ramochka2 {
-    box-sizing: border-box;
+   
 
-    position  : absolute;
-    width     : 30.295vw;
-    height    : 18.628vw;
-    margin-top: 29.4%;
+    z-index        : 1;
+    box-sizing     : border-box;
+    margin-right   : 65px;
+    margin-top     : 4%;
+    border         : 2px solid #D94E29;
+    backdrop-filter: blur(37px);
+    /* Note        : backdrop-filter has minimal browser support */
 
-
-
-    border       : 2px solid #D94E29;
-    border-radius: 1.9vw;
+    border-radius: 30px;
     border-width : 0.2vw;
 }
 
 .globus {
-    position: absolute;
-    top     : 8%;
-    left    : 82%;
-    z-index : 2;
-    width   : 4vw;
-    height  : 4vw;
+
+    z-index: 2;
+    width  : 4vw;
+    height : 4vw;
 }
 
 
 
 
 .avito {
-    position: absolute;
+
 
     /** calc(10px + ...) - из-за самой картинки */
-    top          : 72%;
+
     right        : max(15px, 62%);
     padding      : 0.45vw 4.7vw 0.5vw 1.2vw;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
@@ -334,10 +305,10 @@ a {
 
 
 .vk {
-    position: absolute;
+
 
     /** calc(10px + ...) - из-за самой картинки */
-    top          : 72%;
+
     right        : max(15px, 50%);
     padding      : 1.563vw;
     background   : #0077FF;
@@ -348,13 +319,6 @@ a {
     cursor: pointer;
     border: none;
 
-
-
-    /* identical to box height */
-
-    text-align: center;
-
-
     color: #010101;
 
 }
@@ -362,39 +326,44 @@ a {
 .vk>img {
     position : absolute;
     transform: translate(-50%, -50%);
-    height: 1.823vw;
-    width: 1.875vw;
+    height   : 1.823vw;
+    width    : 1.875vw;
 }
 
 
 .tg {
-    position: absolute;
 
-    /** calc(10px + ...) - из-за самой картинки */
-    top          : 72%;
-    right        : max(15px, 38%);
-    padding      : 1.563vw;
     background   : #009BFF;
     box-shadow   : 0px 2px 15px rgba(0, 0, 0, 0.1);
     border-radius: 0.9vw;
+    border       : none;
 
+    padding: 1.563vw;
+    width  : 0vw;
 
-    cursor: pointer;
-    border: none;
-
-
-
-    /* identical to box height */
-
-    text-align: center;
-
-
-    color: #010101;
 }
 
 .tg>img {
     position : absolute;
     transform: translate(-50%, -50%);
-    height: 1.875vw;
-    width: 1.875vw;
+    height   : 1.875vw;
+    width    : 1.875vw;
+}
+
+
+
+.grid_nav {
+    display              : grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap             : 1rem;
+}
+
+
+.flex_soc {
+    display    : flex;
+    align-items: center;
+
+    padding-left: 35px;
+    gap         : 10px;
+
 }
