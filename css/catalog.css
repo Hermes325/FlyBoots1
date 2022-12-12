@@ -23,22 +23,9 @@
 
 .card:hover {
     transform: scale(1.03);
-
-
 }
 
-.card::before {
-    content  : "";
-    position : absolute;
-    top      : -64px;
-    left     : -64px;
-    width    : 150%;
-    height   : 76%;
-    transform: rotate(-12deg);
-    z-index  : -1;
 
-
-}
 
 
 .btn {
@@ -74,11 +61,10 @@
 }
 
 
-.cata
-{
-    position: relative;
-    width   : 27vw;
-    height  : 34.467vw;
+.cata {
+    position         : relative;
+    width            : 27vw;
+    height           : 34.467vw;
     background-repeat: no-repeat;
     background-size  : cover;
 
@@ -89,36 +75,33 @@
 
 
 .ramochka_child {
-   
 
-    background-image : url(../картинки/child.png);
-    
+
+    background-image: url(../картинки/child.png);
+
 }
 
 .ramochka_man {
-  
 
-    background-image : url(../картинки/man.png);
-    
+
+    background-image: url(../картинки/man.png);
+
 }
 
 .ramochka_woman {
-   
-    background-image : url(../картинки/woman.png);
-   
+
+    background-image: url(../картинки/woman.png);
+
 }
 
 
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 
-
-
-
-
-
-
-
-
-
+    margin-top: 2vw;
+}
 
 
