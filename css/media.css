@@ -3,27 +3,66 @@
         flex-direction: column;
         row-gap       : 2vw;
     }
-    .catalog_media
-    {
+
+    .catalog_media {
         margin-top: 20vw;
     }
 
     .more_media {
-       display: none;
+        display: none;
     }
 
-    .praviy_text_media
-    {
+    .praviy_text_media {
         margin-top: 5vw;
     }
-    .catalog_text_media
-    {
-        display: flex;
+
+    .catalog_text_media {
+        display        : flex;
         justify-content: center;
 
-       
+
     }
 
+    .Media_Logo {
+        width: 25vw;
+        padding-left: 3vw;
+        padding-top: 3vw;
+    }
+
+
+    h1 {
+
+        font-family: 'Nofex';
+        font-style : normal;
+        font-weight: 400;
+        font-size  : 75px;
+        line-height: 83px;
+        /* or 111% */
+
+        letter-spacing: 0.02em;
+
+        color: #F5F5F5;
+    }
+
+
+    .flex_main
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .shnurki
+    {
+       
+       
+    
+    }
+
+    .flex_media
+    {
+        display: flex;
+            
+    }
 
 
 }

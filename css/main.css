@@ -19,6 +19,15 @@ nav {
 
 }
 
+.flex_main
+{
+display: flex;
+justify-content: space-between;
+margin-top: 3vw;
+
+
+}
+
 .flex_items_center {
     display    : flex;
     align-items: center;
@@ -95,18 +104,18 @@ a {
 
 .shnurki {
     position: absolute;
+
+    z-index: 2;
     width   : 88.65vw;
     top     : 12%;
     height  : 57.1vw;
 }
 
 .dvigaem {
-    position: absolute;
+
     width   : 25vw;
-    left    : 5%;
+    left    : 15%;
     top     : 7%;
-
-
 }
 
 
@@ -128,7 +137,7 @@ a {
 
 
 .krugmain {
-    position: absolute;
+   
     width   : 26.459vw;
     height  : 26.459vw;
     top     : 17%;
@@ -144,9 +153,9 @@ a {
     position: absolute;
     width   : 5.7vw;
     height  : 5.7vw;
-    left    : 67.7%;
-    top     : 12.45%;
-
+    left    : 67%;
+    top     : 21%;
+    z-index: 5;
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
 
@@ -160,8 +169,8 @@ a {
     width   : 5.7vw;
     height  : 5.7vw;
     left    : 25%;
-    top     : 52%;
-
+    top     : 65%;
+    z-index: 5;
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
 
@@ -173,8 +182,8 @@ a {
     width   : 6.72vw;
     height  : 6.72vw;
     left    : 24%;
-    top     : 73.2%;
-
+    top     : 89.2%;
+    z-index: 5;
     background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
     border-radius: 50%;
@@ -185,9 +194,9 @@ a {
     position: absolute;
     width   : 8.282vw;
     height  : 8.282vw;
-    left    : 4%;
-    top     : 76.7%;
-
+    left    : 4.5%;
+    top     : 92%;
+z-index: 5;
     background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
 
@@ -196,11 +205,9 @@ a {
 }
 
 .Logotip {
-    position: absolute;
     width   : 18.2vw;
     height  : 23.45vw;
-    left    : 40%;
-    top     : 12%;
+    z-index: 5;
 }
 
 .grid_ramochka {
@@ -216,8 +223,8 @@ a {
 .text_top {
     display        : flex;
     justify-content: flex-end;
-    margin-right   : 4%;
-    margin-top     : -50%;
+    margin-right   : 10%;
+    margin-top     : 50%;
 
 }
 
