@@ -1,3 +1,8 @@
+:root {
+    --h1-size       : clamp(40px, 35.15px + 1.29vw, 60px);
+    --h1-line-height: clamp(39px, 30.71px + 2.21vw, 73.14px);
+}
+
 @media (max-width: 1200px) {
     .container {
         flex-direction: column;
@@ -24,11 +29,17 @@
     }
 
     .Media_Logo {
-        width: 25vw;
+        width       : 25vw;
         padding-left: 3vw;
-        padding-top: 3vw;
+        padding-top : 3vw;
     }
 
+
+    .Logotip {
+        width    : 48.792270531400966vw;
+        height   : auto;
+        transform: translateY(-3rem);
+    }
 
     h1 {
 
@@ -44,25 +55,41 @@
         color: #F5F5F5;
     }
 
+    .krugmain {
+        width : 70.459vw;
+        height: 70.459vw;
+    }
 
-    .flex_main
-    {
+    .flex_main {
         flex-direction: column;
-        align-items: center;
+        align-items   : center;
+        overflow-x    : hidden;
+        position      : relative;
     }
 
-    .shnurki
-    {
-       
-       
-    
+    .shnurki {
+        width    : 1046px;
+        transform: translate(-5rem, 4.5rem);
+        height   : auto;
     }
 
-    .flex_media
-    {
+    .flex_media {
         display: flex;
-            
+
     }
 
+    .Logo_media {
+        padding-left: 0;
+    }
 
+    .jost400_3 {
+        font-style : italic;
+        font-size  : 14px;
+        line-height: 23px;
+        width      : 70vw !important;
+    }
+
+    .text_top {
+        margin-top: 10%;
+    }
 }

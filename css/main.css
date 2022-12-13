@@ -19,11 +19,10 @@ nav {
 
 }
 
-.flex_main
-{
-display: flex;
-justify-content: space-between;
-margin-top: 3vw;
+.flex_main {
+    display        : flex;
+    justify-content: space-between;
+    margin-top     : 3vw;
 
 
 }
@@ -106,20 +105,22 @@ a {
     position: absolute;
 
     z-index: 2;
-    width   : 88.65vw;
-    top     : 12%;
-    height  : 57.1vw;
+    width  : 88.65vw;
+    top    : 12%;
+    height : 57.1vw;
 }
 
 .dvigaem {
 
-    width   : 25vw;
-    left    : 15%;
-    top     : 7%;
+    width: 25vw;
+    left : 15%;
+    top  : 7%;
 }
 
 
-
+.Logo_media {
+    padding-left: 80px;
+}
 
 
 
@@ -137,10 +138,10 @@ a {
 
 
 .krugmain {
-   
-    width   : 26.459vw;
-    height  : 26.459vw;
-    top     : 17%;
+
+    width : 26.459vw;
+    height: 26.459vw;
+    top   : 17%;
 
     background: linear-gradient(180deg, #D94E29 47.97%, #010101 100%);
     box-shadow: 0px -10px 64px rgba(217, 78, 41, 0.9);
@@ -150,12 +151,12 @@ a {
 }
 
 .krug1 {
-    position: absolute;
-    width   : 5.7vw;
-    height  : 5.7vw;
-    left    : 67%;
-    top     : 21%;
-    z-index: 5;
+    position  : absolute;
+    width     : 5.7vw;
+    height    : 5.7vw;
+    left      : 67%;
+    top       : 21%;
+    z-index   : 5;
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
 
@@ -165,12 +166,12 @@ a {
 }
 
 .krug2 {
-    position: absolute;
-    width   : 5.7vw;
-    height  : 5.7vw;
-    left    : 25%;
-    top     : 65%;
-    z-index: 5;
+    position  : absolute;
+    width     : 5.7vw;
+    height    : 5.7vw;
+    left      : 25%;
+    top       : 65%;
+    z-index   : 5;
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
 
@@ -178,12 +179,12 @@ a {
 }
 
 .krug3 {
-    position: absolute;
-    width   : 6.72vw;
-    height  : 6.72vw;
-    left    : 24%;
-    top     : 89.2%;
-    z-index: 5;
+    position     : absolute;
+    width        : 6.72vw;
+    height       : 6.72vw;
+    left         : 24%;
+    top          : 89.2%;
+    z-index      : 5;
     background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
     border-radius: 50%;
@@ -191,12 +192,12 @@ a {
 }
 
 .krug4 {
-    position: absolute;
-    width   : 8.282vw;
-    height  : 8.282vw;
-    left    : 4.5%;
-    top     : 92%;
-z-index: 5;
+    position  : absolute;
+    width     : 8.282vw;
+    height    : 8.282vw;
+    left      : 4.5%;
+    top       : 92%;
+    z-index   : 5;
     background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
 
@@ -205,8 +206,8 @@ z-index: 5;
 }
 
 .Logotip {
-    width   : 18.2vw;
-    height  : 23.45vw;
+    width  : 18.2vw;
+    height : 23.45vw;
     z-index: 5;
 }
 
@@ -236,8 +237,8 @@ z-index: 5;
 
     position: relative;
 
-    right: 15px;
-    top: -15px;
+    right     : 15px;
+    top       : -15px;
     background: rgb(1, 1, 1);
     z-index   : 5;
     box-sizing: border-box;
@@ -247,11 +248,11 @@ z-index: 5;
     /* Note        : backdrop-filter has minimal browser support */
 
     border-radius: 30px;
-    border-width : 0.2vw;   
+    border-width : 0.2vw;
 }
 
 .ramochka2 {
-   
+
 
     z-index        : 1;
     box-sizing     : border-box;
