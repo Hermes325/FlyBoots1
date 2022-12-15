@@ -4,11 +4,6 @@
 }
 
 
-@media screen and (max-width: 767px) {
-    /* стили для средних планшетов - начало */
-
-}
-
 @media screen and (max-width: 479px) {
 
     /* стили для телефонов - начало */
@@ -55,7 +50,7 @@
     .Logotip {
         width    : 48.792270531400966vw;
         height   : auto;
-        transform: translateY(-3rem);
+        transform: translateY(-5rem);
     }
 
     h1 {
@@ -124,7 +119,7 @@
         z-index : 2;
         top     : 22%;
 
-        width: auto;
+        width: 100%;
 
         overflow-y: hidden;
     }
@@ -136,7 +131,7 @@
 
 
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 800px) {
     .sidenav {
         padding-top: 15px;
     }
@@ -179,7 +174,7 @@
     .Logotip {
         width    : 48.792270531400966vw;
         height   : auto;
-        transform: translateY(-3rem);
+        transform: translateY(-5rem);
     }
 
     h1 {
@@ -232,6 +227,7 @@
 
     .Logo_media {
         padding-left: 0;
+        transform: translateX(-25vw);
     }
 
     .jost400_3 {
@@ -251,7 +247,7 @@
         z-index : 2;
         top     : 22%;
 
-        width: auto;
+        width: 100%;
 
         overflow-y: hidden;
     }
