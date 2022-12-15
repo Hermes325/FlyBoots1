@@ -18,7 +18,7 @@
    }
 
    .background {
-       z-index            : 1;
+       z-index            : -1;
        top                : -10%;
        left               : -10%;
        width              : 120%;
@@ -76,24 +76,7 @@
        background-image: url("../картинки/close.svg");
    }
 
-   .navbar-search {
-       border             : 0;
-       height             : 40px;
-       background         : #2f3339 url("assets/search.svg");
-       background-repeat  : no-repeat;
-       background-position: 10px 50%;
-       border             : 0;
-       border-radius      : 6px;
-       padding-left       : 36px;
-       width              : 180px;
-       font-size          : 16px;
-       font-family        : "Euclid Circular A";
-   }
-
-   .navbar-search::placeholder {
-       color: #a7a7a7;
-   }
-
+   
    .menu {
        z-index        : 2;
        top            : 0;

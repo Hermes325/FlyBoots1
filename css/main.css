@@ -12,8 +12,12 @@ a {
 
 body {
     background-color: black;
-}
 
+}
+main
+{
+    margin-top: 5vw;
+}
 nav {
     height: 5vw;
 
@@ -152,7 +156,7 @@ position: relative;
     width     : 5.7vw;
     height    : 5.7vw;
     left      : 67%;
-    top       : 21%;
+    top       : 12.5%;
     
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -167,7 +171,7 @@ position: relative;
     width     : 5.7vw;
     height    : 5.7vw;
     left      : 25%;
-    top       : 65%;
+    top       : 57%;
     
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -180,7 +184,7 @@ position: relative;
     width        : 6.72vw;
     height       : 6.72vw;
     left         : 24%;
-    top          : 89.2%;
+    top          : 81.2%;
    
     background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -193,7 +197,7 @@ position: relative;
     width     : 8.282vw;
     height    : 8.282vw;
     left      : 4.5%;
-    top       : 92%;
+    top       : 84%;
     
     background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);

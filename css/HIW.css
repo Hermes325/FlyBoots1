@@ -126,6 +126,7 @@
     border-radius: 50px;
     width        : 13vw;
     height       : 3vw;
+    z-index: 0;
     
 }
 
