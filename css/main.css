@@ -386,3 +386,13 @@ a {
 {
     display: none;
 }
+
+.sidenav{
+    display: none;
+}
+
+
+.vlevo
+{
+    display: flex;
+}

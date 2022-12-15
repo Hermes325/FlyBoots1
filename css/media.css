@@ -35,6 +35,7 @@
 
     .praviy_text_media {
         margin-top: 5vw;
+        transform: translateX(15vw);
     }
 
     .catalog_text_media {
@@ -107,6 +108,7 @@
 
     .Logo_media {
         padding-left: 0;
+        transform: translateX(-25vw);
     }
 
     .jost400_3 {
@@ -257,4 +259,6 @@
 
         overflow-y: hidden;
     }
+
+    
 }

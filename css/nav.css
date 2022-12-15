@@ -3,12 +3,8 @@
 
 
 
-   
-
-
-
-
     .sidenav {
+        display: block;
         height          : 100%;
         /* 100% Full-height */
         width           : 0;
@@ -19,7 +15,7 @@
         /* Stay on top */
         top             : 0;
         /* Stay at the top */
-        right            : 0;
+        right           : 0;
         background-color: #111;
         /* Black*/
         overflow-x      : hidden;
@@ -49,14 +45,22 @@
     .sidenav .closebtn {
         position   : absolute;
         top        : 0;
-        right      : 25px;
+        
         font-size  : 36px;
-        margin-left: 50px;
+        margin-right: 50px;
+
+
     }
 
     /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
     #main {
-        transition: margin-left .5s;
+        transition: margin-right .5s;
         padding   : 20px;
+    }
+
+
+    span
+    {
+        transform: translateX(40vw);
     }
 }
