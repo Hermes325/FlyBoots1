@@ -16,20 +16,37 @@
     <link rel="stylesheet" type="text/css" href="css/question.css" />
     <link rel="stylesheet" type="text/css" href="css/HIW.css" />
     <link rel="stylesheet" type="text/css" href="css/media.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
 </head>
 
 
 <body>
-    
-    <header class="flex_center margin_top45 ">
-        <nav class="ramka flex_space-evenly flex_items_center grid_nav">
-            <a href="#catalog" class="jost400">Каталог</a>
-            <a href="#Как_это_работает?" class="jost400">Как это работает?</a>
-            <a href="#Как_это_работает?" class="jost400">Доставка</a>
-            <a href="#О_нас" class="jost400">О нас</a>
-            <a href="#Связаться" class="jost400">Связаться</a>
+
+    <header class="margin_top45 flex_center ">
+        <nav class="  ramka flex_space-evenly flex_items_center grid_nav more_media">
+            <a class="jost400" href="#catalog">Каталог</a>
+            <a class="jost400" href="#Как_это_работает?">Как это работает?</a>
+            <a class="jost400" href="#А_что_с_доставкой_?">Доставка</a>
+            <a class="jost400" href="#О_нас">О нас</a>
+            <a class="jost400" href="#Связаться">Связаться</a>
         </nav>
+
+        
+
+
     </header>
+
+
+    <div id="mySidenav" class="sidenav">
+        <a class="jost400" href="#catalog">Каталог</a>
+        <a class="jost400" href="#Как_это_работает?">Как это работает?</a>
+        <a class="jost400" href="#А_что_с_доставкой_?">Доставка</a>
+        <a class="jost400" href="#О_нас">О нас</a>
+        <a class="jost400" href="#Связаться">Связаться</a>
+    </div>
+
+
+    <span onclick="openNav()">open</span>
 
 
     <main>
@@ -50,6 +67,7 @@
 
             <div>
                 <div class="krugmain flex_center"><img src="./картинки/FBlogo.svg" alt="Logotip" class="Logotip"></div>
+
             </div>
             <div class="praviy_text_media">
                 <div class="text_top">
@@ -62,6 +80,8 @@
 
 
             <img src="./картинки/Subtract.png" alt="Шнурки" class="shnurki">
+            <img src="/картинки/shnurki2.svg" alt="shnurki" class="shnurki2">
+
 
 
         </div>
@@ -248,7 +268,7 @@
 
 
 
-                    <div #А_что_с_доставкой_?>
+                    <div id="А_что_с_доставкой_?">
                         <h2 class="Montserrat700_2" style="margin-top: 10vw;">
                             А что с <br> доставкой?
                         </h2>
