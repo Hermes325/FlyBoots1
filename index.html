@@ -17,13 +17,18 @@
     <link rel="stylesheet" type="text/css" href="css/HIW.css" />
     <link rel="stylesheet" type="text/css" href="css/media.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <script src="/index.js"></script>
+
+
+   
 </head>
 
 
 <body>
 
     <header class="margin_top45 flex_center ">
-        <nav class="  ramka flex_space-evenly flex_items_center grid_nav more_media">
+        <nav class="ramka flex_space-evenly flex_items_center grid_nav more_media">
             <a class="jost400" href="#catalog">Каталог</a>
             <a class="jost400" href="#Как_это_работает?">Как это работает?</a>
             <a class="jost400" href="#А_что_с_доставкой_?">Доставка</a>
@@ -31,22 +36,29 @@
             <a class="jost400" href="#Связаться">Связаться</a>
         </nav>
 
-        
 
+        <nav id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">x</a>
+            <a class="jost400" href="#catalog">Каталог</a>
+            <a class="jost400" href="#Как_это_работает?">Как это работает?</a>
+            <a class="jost400" href="#А_что_с_доставкой_?">Доставка</a>
+            <a class="jost400" href="#О_нас">О нас</a>
+            <a class="jost400" href="#Связаться">Связаться</a>
 
+           
+        </nav>
+        <span onclick="openNav()">Menu</span>
+       
     </header>
 
-
-    <div id="mySidenav" class="sidenav">
-        <a class="jost400" href="#catalog">Каталог</a>
-        <a class="jost400" href="#Как_это_работает?">Как это работает?</a>
-        <a class="jost400" href="#А_что_с_доставкой_?">Доставка</a>
-        <a class="jost400" href="#О_нас">О нас</a>
-        <a class="jost400" href="#Связаться">Связаться</a>
-    </div>
+   
 
 
-    <span onclick="openNav()">open</span>
+
+
+
+
+
 
 
     <main>
@@ -144,7 +156,7 @@
     </main>
 
 
-    <div class="">
+    <!-- <div class="">
         <section id="catalog" class="catalog_media">
             <H1 class="Montserrat700 flex_center" style="margin-top: 9vw;">
                 Каталог
@@ -483,4 +495,4 @@
     </div>
 </body>
 
-</html>
+</html> -->
