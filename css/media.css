@@ -92,10 +92,6 @@
         height: 70.459vw;
     }
 
-    .flex_main {
-        flex-direction: column;
-        align-items   : center;
-    }
 
     .shnurki {
         display: none;
