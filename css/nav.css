@@ -17,18 +17,7 @@
        position: fixed;
    }
 
-   .background {
-       z-index            : -1;
-       top                : -10%;
-       left               : -10%;
-       width              : 120%;
-       height             : 120%;
-       background-image   : url("assets/bg.jpeg");
-       background-size    : cover;
-       background-repeat  : no-repeat;
-       background-position: center;
-       transition         : 0.5s;
-   }
+
 
    body.open .background {
        filter: blur(20px);
@@ -109,6 +98,7 @@
    body.open .menu>a {
        animation: appear 0.3s both;
    }
+
 
    @keyframes appear {
        0% {

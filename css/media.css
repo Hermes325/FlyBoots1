@@ -5,6 +5,22 @@
 
 
 @media screen and (max-width: 479px) {
+    .cata {
+        position         : relative;
+        width            : 75vw;
+        height           : 96vw;
+        background-repeat: no-repeat;
+        background-size  : cover;
+
+        border-radius: 1vw;
+
+        transition: 0.20s;
+    }
+
+
+
+
+
 
     /* стили для телефонов - начало */
     .sidenav {
@@ -30,7 +46,7 @@
 
     .praviy_text_media {
         margin-top: 5vw;
-        transform: translateX(15vw);
+        transform : translateX(15vw);
     }
 
     .catalog_text_media {
@@ -99,7 +115,7 @@
 
     .Logo_media {
         padding-left: 0;
-        transform: translateX(-25vw);
+        transform   : translateX(-25vw);
     }
 
     .jost400_3 {
@@ -227,7 +243,7 @@
 
     .Logo_media {
         padding-left: 0;
-        transform: translateX(-25vw);
+        transform   : translateX(-25vw);
     }
 
     .jost400_3 {
@@ -252,5 +268,5 @@
         overflow-y: hidden;
     }
 
-    
+
 }

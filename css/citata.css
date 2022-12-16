@@ -52,7 +52,7 @@
     border-radius: 50px;
     width        : 27.865vw;
     height       : 4.167vw;
-    z-index: -1;
+    z-index: 0;
 
     transform: translate(0, -7vw);
 }

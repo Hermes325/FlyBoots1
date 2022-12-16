@@ -30,13 +30,14 @@
         </nav>
 
         <button class="navbar-burger" onclick="toggleMenu()"></button>
-        <nav class="menu">
+        <nav class="menu" onclick="toggleMenu()">
             <a href="#catalog" style="animation-delay: 0.1s">Каталог</a>
             <a href="#Как_это_работает?" style="animation-delay: 0.2s">Как это работает ?</a>
             <a href="#A_what_with_delivery_?" style="animation-delay: 0.3s">А что с доставкой ?</a>
             <a href="#About_us" style="animation-delay: 0.4s">О нас</a>
             <a href="#Связаться" style="animation-delay: 0.5s">Связаться</a>
         </nav>
+
         <script type="text/javascript">
             const toggleMenu = () => {
                 document.body.classList.toggle("open");
@@ -47,37 +48,71 @@
 
 
 
-
     <main>
-        <div class="flex_main" style="margin-top: 3vw;">
+        <div class="flex_main">
             <div>
-                <div class="dvigaem Logo_media">
-                    <h1>
-                        Fly Boots
-                    </h1>
-                    <p class="jost400_2 margin_top10 more_media">Congue arcu aliquam amet sapien, sollicitudin egestas.
-                        Sed volutpat tristique bibendum senectus consectetur sagittis, at.
-                    </p>
+                <h1>
+                    Fly <br> Boots
+                </h1>
+            </div>
+
+            <div class="krugmain flex_center">
+                <img src="./картинки/FBlogo.svg" alt="FBlogo" class="Logotip">
+            </div>
+
+            <div class="praviy_text_flex">
+                <p class="jost400 praviy_text">Congue arcu aliquam amet sapien, sollicitudin egestas.
+                    Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+                </p>
+                <div id="Рамка_узнать_подробнее" class=" more_media flex_end_end">
+                    <div class="ramochka2">
+                        <div class="ramochka1 grid_ramochka">
+
+                            <div class="flex_colomn">
+                                <div class="flex_space-evenly"
+                                    style="justify-content: space-around; gap: 45px; padding-top: 15px;">
+                                    <p class="jost400_4" style="width: 15vw;">Узнайте о нас поподробнее</p>
+
+                                    <img src="./картинки/globus.svg" alt="globus" class="globus">
+
+                                </div>
+
+
+                                <p class="jost400_2 margin_top1vw" style="padding-left: 25px ;">
+                                    Congue arcu aliquam amet sapien, <br> sollicitudin egestas.
+                                    Sed volutpat tristique bibendum senectus consectetur sagittis, at.
+                                </p>
+
+                            </div>
+
+
+                            <div class="flex_soc">
+                                <a href="https://www.avito.ru/" class="avito">
+                                    Авито
+                                    <img src="./картинки/avito.svg" alt="avito_icon">
+                                </a>
+
+                                <a href="https://www.vk.ru/" class="vk">
+                                    <img src="./картинки/vk.svg" alt="vk_icon">
+                                </a>
+
+                                <a href="https://www.tg.ru/">
+                                    <div class="tg">
+                                        <img src="./картинки/tg.svg" alt="tg_icon">
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </div>
+        <img src="./картинки/shnurki2.svg" alt="shnurki2" class="display_none">
+        <img src="./картинки/Subtract.png" alt="shnurki1" class="shnurki1">
 
-            <div>
-                <div class="krugmain flex_center"><img src="./картинки/FBlogo.svg" alt="Logotip" class="Logotip"></div>
-            </div>
-            <div class="praviy_text_media">
-                <div class="text_top">
-                    <p class="jost400_3" style="width: 26vw;">
-                        Congue arcu aliquam amet sapien, sollicitudin egestas.
-                        Sed volutpat tristique bibendum senectus consectetur sagittis, at.
-                    </p>
-                </div>
-            </div>
-
-
-            <img src="./картинки/Subtract.png" alt="Шнурки" class="shnurki">
-            <img src="./картинки/shnurki2.svg" alt="shnurki" class="shnurki2">
-
-
+        <div class="flex_end_end golubi">
+            <img src="./картинки/golub1.svg" alt="golub1">
+            <img src="./картинки/golub2.svg" alt="golub2" class="golub2">
         </div>
 
         <div class="more_media">
@@ -92,53 +127,23 @@
 
 
 
-        <div id="Рамка_узнать_подробнее" class=" more_media flex_end_end">
-            <div class="ramochka2">
-                <div class="ramochka1 grid_ramochka">
-
-                    <div class="flex_colomn">
-                        <div class="flex_space-evenly"
-                            style="justify-content: space-around; gap: 45px; padding-top: 15px;">
-                            <p class="jost400_4" style="width: 15vw;">Узнайте о нас поподробнее</p>
-
-                            <img src="./картинки/globus.svg" alt="globus" class="globus">
-
-                        </div>
-
-
-                        <p class="jost400_2 margin_top1vw" style="padding-left: 25px ;">
-                            Congue arcu aliquam amet sapien, <br> sollicitudin egestas.
-                            Sed volutpat tristique bibendum senectus consectetur sagittis, at.
-                        </p>
-
-                    </div>
-
-
-                    <div class="flex_soc">
-                        <a href="https://www.avito.ru/" class="avito">
-                            Авито
-                            <img src="./картинки/avito.svg" alt="avito_icon">
-                        </a>
-
-                        <a href="https://www.vk.ru/" class="vk">
-                            <img src="./картинки/vk.svg" alt="vk_icon">
-                        </a>
-
-                        <a href="https://www.tg.ru/">
-                            <div class="tg">
-                                <img src="./картинки/tg.svg" alt="tg_icon">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
     </main>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
     <section id="catalog" class="catalog_media">
-        <H1 class="Montserrat700 flex_center" style="margin-top: 9vw;">
+        <H1 class="Montserrat700 flex_center">
             Каталог
         </H1>
         <div class="catalog_text_media">
