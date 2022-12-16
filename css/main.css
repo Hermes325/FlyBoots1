@@ -22,11 +22,10 @@ nav {
 
 }
 
-main
-{
-    padding-top: 3vw;
-    padding-left: 4vw;
-    padding-right: 4vw;
+main {
+    
+    padding-left : 4vw;
+    padding-right: 2vw;
 }
 
 .flex_main {
@@ -109,16 +108,14 @@ a {
 
 
 
-.praviy_text
-{
+.praviy_text {
     padding-top: 12vw;
-    text-align: end;
-    width     : 29vw;
+    text-align : end;
+    width      : 29vw;
 }
 
-.praviy_text_flex
-{
-    display: flex;
+.praviy_text_flex {
+    display       : flex;
     flex-direction: column;
 
 }
@@ -143,7 +140,8 @@ a {
 
 
 .krugmain {
-    position: relative;
+    position: absolute;
+    left    : 35%;
     width   : 26.459vw;
     height  : 26.459vw;
     top     : 17%;
@@ -211,11 +209,11 @@ a {
 }
 
 .Logotip {
-    width  : 18.2vw;
-    height : 23.45vw;
+    width   : 18.2vw;
+    height  : 23.45vw;
     position: absolute;
-    bottom: 5vw;
-    z-index: 1;
+    bottom  : 5vw;
+    z-index : 1;
 }
 
 .grid_ramochka {
@@ -236,14 +234,11 @@ a {
 
 }
 
-
-
-
 .ramochka1 {
 
 
-    position: relative;
-
+    position  : relative;
+    width     : 33vw;
     right     : 15px;
     top       : -15px;
     background: rgb(1, 1, 1);
@@ -386,8 +381,7 @@ a {
 }
 
 
-.golub2
-{
+.golub2 {
     padding-top: 10vw;
 }
 

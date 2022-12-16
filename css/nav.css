@@ -3,6 +3,19 @@
 
    }
 
+   nav {
+       position  : fixed;
+       top       : 0;
+       left      : 0;
+       width     : 100%;
+       transition: all .3s ease;
+   }
+
+   nav.out {
+       transform: translateY(-100%);
+   }
+
+
    button {
        border    : 0;
        padding   : 0;
@@ -65,7 +78,7 @@
        background-image: url("../картинки/close.svg");
    }
 
-   
+
    .menu {
        z-index        : 2;
        top            : 0;
