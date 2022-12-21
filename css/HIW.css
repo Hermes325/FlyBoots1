@@ -3,17 +3,12 @@
     grid-template-columns: repeat(2, 45vw);
     grid-template-rows   : repeat(5, 21vw);
 
-
 }
 
 .grid_hiw_left {
     display           : grid;
     grid-template-rows: repeat(5, 6vw);
-
-
 }
-
-
 
 .grid_hiw_2 {
     display           : grid;

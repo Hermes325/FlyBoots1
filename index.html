@@ -19,19 +19,20 @@
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
     <script>
-        var header = $('.header'),
-            scrollPrev = 0;
-
-        $(window).scroll(function () {
-            var scrolled = $(window).scrollTop();
-
-            if (scrolled > 100 && scrolled > scrollPrev) {
-                header.addClass('out');
-            } else {
-                header.removeClass('out');
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function () {
+            var currentScrollPos = window.pageYOffset;
+            if ((prevScrollpos > currentScrollPos) && (window.scrollY >= 350)) {
+                document.getElementById("navbar").style.top = "0";
+                document.getElementById("navbar").style.display = "flex";
+                document.getElementById("navbar").style.transition = "0.3s";
             }
-            scrollPrev = scrolled;
-        });
+            else {
+                document.getElementById("navbar").style.top = "-70px";
+                document.getElementById("navbar").style.transition = "0.3s";
+            }
+            prevScrollpos = currentScrollPos;
+        }
     </script>
 </head>
 
@@ -40,11 +41,12 @@
     <header>
 
         <div class="background"></div>
-        <nav class="navbar">
-            <img class="navbar-logo" src="./картинки/logo_mini.png" />
+        <nav class="navbar" id="navbar" style="display: none;">
+            <img class="navbar-logo" src="/картинки/logo_mini.png" alt="logo_mini">
+            <button class="navbar-burger" onclick="toggleMenu()"></button>
         </nav>
 
-        <button class="navbar-burger" onclick="toggleMenu()"></button>
+
         <nav class="menu" onclick="toggleMenu()">
             <a href="#catalog" style="animation-delay: 0.1s">Каталог</a>
             <a href="#Как_это_работает?" style="animation-delay: 0.2s">Как это работает ?</a>
@@ -59,16 +61,12 @@
             };
         </script>
 
-
-
-
-
     </header>
 
     <main>
         <div class="flex_main">
             <div>
-                <h1>
+                <h1 style="padding-top:6vw ;">
                     Fly <br> Boots
                 </h1>
             </div>
@@ -93,7 +91,7 @@
 
                                 </div>
 
-                                <p class="jost400_2 margin_top1vw" style="padding-left: 2.5vw ;">
+                                <p class="jost400_2" style="padding-left: 2.5vw; margin-top:1vw; width: 27vw;">
                                     Congue arcu aliquam amet sapien, <br> sollicitudin egestas.
                                     Sed volutpat tristique bibendum senectus consectetur sagittis, at.
                                 </p>
@@ -120,7 +118,7 @@
                 </div>
             </div>
         </div>
-        <img src="./картинки/shnurki2.svg" alt="shnurki2" class="display_none">
+        <img src="./картинки/shnurki2.svg" alt="shnurki2" style="display: none;">
         <img src="./картинки/Subtract.png" alt="shnurki1" class="shnurki1">
 
         <div class="flex_end_end golubi">
@@ -152,24 +150,26 @@
         </div>
 
         <div class="container">
-            <div class="card ramochka_child cata">
-                <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="btn">
+            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_child">
+                <div class="btn">
                     Кроссовки
                     <img src="./картинки/Vector.svg" alt="купить">
-                </a>
-            </div>
-            <div class="card ramochka_man cata">
-                <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="btn">
+                </div>
+            </a>
+
+            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_man">
+                <div class="btn">
                     Одежда
                     <img src="./картинки/Vector.svg" alt="купить">
-                </a>
-            </div>
-            <div class="card ramochka_woman cata">
-                <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="btn">
+                </div>
+            </a>
+
+            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_woman">
+                <div class="btn">
                     Аксессуары
                     <img src="./картинки/Vector.svg" alt="купить">
-                </a>
-            </div>
+                </div>
+            </a>
         </div>
 
 
@@ -389,7 +389,6 @@
                 style="width:25vw; transform: translate(4vw); margin-top: 2vw;">
 
             <div class="flex_colomn">
-
                 <p class="Roboto400 text1" style="margin-top: 2vw;  ">
                     Congue arcu aliquam amet sapien, sollicitudin egestas.
                     Sed volutpat tristique bibendum senectus consectetur sagittis, at.
@@ -404,7 +403,6 @@
 
             </div>
             <img src="./картинки/righthand.svg" alt="righthand" style="width: 30vw;">
-
         </div>
 
         <div class="flex_end_end">
@@ -414,14 +412,10 @@
             </p>
         </div>
 
-
-
-
         <div class="flex_end_1">
             <img src="./картинки/lefthand.svg" alt="lefthand" style="width: 24vw ;">
 
             <div class="flex_colomn">
-
                 <p class="Roboto400 text">
                     Congue arcu aliquam amet sapien, sollicitudin egestas.
                     Sed volutpat tristique bibendum senectus consectetur sagittis, at.
@@ -433,17 +427,11 @@
                     Congue arcu aliquam amet sapien, sollicitudin egestas.
                     Sed volutpat tristique bibendum senectus consectetur sagittis, at.
                 </p>
-
             </div>
             <div>
-
-
                 <img src="./картинки/whitenike.png" alt="box" style="width:25vw ;transform: translate(-2vw);">
-
             </div>
-
         </div>
-
     </section>
 
     <section id="Связаться" class="flex_end_1" style="margin-left: 7vw;">
@@ -502,15 +490,7 @@
         <div>
             <img src="./картинки/end.svg" alt="end" style="width: 47vw;">
         </div>
-
-
-
-
     </section>
-
-
-
-
 </body>
 
 </html>

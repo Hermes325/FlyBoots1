@@ -3,14 +3,12 @@
     display        : flex;
     justify-content: space-between;
     align-items    : flex-end;
-
 }
 
 .david {
     width        : 22.3vw;
     height       : 32.5vw;
     margin-bottom: 3vw;
-
 }
 
 .cesar {
@@ -19,32 +17,22 @@
     overflow-x: hidden;
 }
 
-
-
 .citata_david {
     transform: translate(2vw, -20vw);
-
-
 }
 
 .citata_cesar {
-
     transform: translate(-1vw, -10vw);
-
-
 }
 
 .slova_cesar {
-
     transform: translate(1.5vw, -9.5vw);
 }
 
 .slova_david {
     width: 38vw;
-
     transform: translate(2.5vw, -11vw);
 }
-
 
 .zakazat {
     background   : linear-gradient(86.36deg, #E2167A 0%, #DC640F 100%);

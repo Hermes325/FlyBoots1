@@ -12,10 +12,6 @@ body {
 
 }
 
-header {
-    height: 6vw;
-}
-
 
 nav {
     height: 5vw;
@@ -23,7 +19,6 @@ nav {
 }
 
 main {
-    
     padding-left : 4vw;
     padding-right: 2vw;
 }
@@ -51,65 +46,14 @@ main {
 }
 
 
-.ramka {
-    z-index: 1;
-
-    padding-left   : 2vw;
-    padding-right  : 2vw;
-    height         : 4vw;
-    border-style   : solid;
-    background     : rgba(1, 1, 1, 0.1);
-    border-color   : rgba(245, 245, 245, 0.2);
-    border-width   : 0.2vw;
-    backdrop-filter: blur(37.5px);
-    border-radius  : 1.7vw;
-
-}
-
-.margin_top10 {
-    margin-top: 1.5vw;
-}
-
-.margin_top45 {
-    margin-top: 1.2vw;
-}
-
-.margin_top5vw {
-    margin-top: 5vw;
-}
-
-.margin_top8vw {
-    margin-top: 8vw;
-}
-
-.margin_top90 {
-    margin-top: 90px;
-}
-
-.margin_left115 {
-    margin-left: 6vw;
-}
-
-.logotip {
-
-    display        : flex;
-    justify-content: center;
-}
-
 a {
     text-decoration: none;
     color          : #F5F5F5;
 
 }
 
-.vw66 {
-    width: 66vw;
-}
-
-
-
 .praviy_text {
-    padding-top: 12vw;
+    padding-top: 18vw;
     text-align : end;
     width      : 29vw;
 }
@@ -120,31 +64,13 @@ a {
 
 }
 
-.Logo_media {
-    padding-left: 80px;
-}
-
-
-
-.margin_top1vw {
-    margin-top: 1vw;
-    width     : 27vw;
-}
-
-.position_rel {
-    position: relative;
-    width   : 99vw;
-    height  : 62vw;
-}
-
-
 
 .krugmain {
     position: absolute;
     left    : 35%;
     width   : 26.459vw;
     height  : 26.459vw;
-    top     : 17%;
+    top     : 12%;
 
     background: linear-gradient(180deg, #D94E29 47.97%, #010101 100%);
     box-shadow: 0px -10px 64px rgba(217, 78, 41, 0.9);
@@ -157,8 +83,8 @@ a {
     position: absolute;
     width   : 5.7vw;
     height  : 5.7vw;
-    left    : 63.5%;
-    top     : 9.2vw;
+    left    : 63.3%;
+    top     : 5.3vw;
 
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -173,7 +99,7 @@ a {
     width   : 5.7vw;
     height  : 5.7vw;
     left    : 25%;
-    top     : 31.6vw;
+    top     : 27.6vw;
 
     background: linear-gradient(222.74deg, #D94E29 16.39%, rgba(217, 78, 41, 0) 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -186,7 +112,7 @@ a {
     width   : 6.72vw;
     height  : 6.72vw;
     left    : 24%;
-    top     : 44vw;
+    top     : 40vw;
 
     background   : linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow   : 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -199,7 +125,7 @@ a {
     width   : 8.282vw;
     height  : 8.282vw;
     left    : 4.5%;
-    top     : 44.7vw;
+    top     : 40.7vw;
 
     background: linear-gradient(222.74deg, #D94E29 16.39%, #010101 88.2%);
     box-shadow: 9px -7px 54px rgba(217, 78, 41, 0.6);
@@ -220,23 +146,10 @@ a {
     display           : grid;
     grid-template-rows: repeat(2, 120px);
     grid-row-gap      : 5vw;
-
-
 }
 
-
-
-.text_top {
-    display        : flex;
-    justify-content: flex-end;
-    margin-right   : 10%;
-    margin-top     : 50%;
-
-}
 
 .ramochka1 {
-
-
     position  : relative;
     width     : 33vw;
     right     : 15px;
@@ -254,8 +167,6 @@ a {
 }
 
 .ramochka2 {
-
-
     z-index        : 1;
     box-sizing     : border-box;
     margin-top     : 4%;
@@ -354,9 +265,6 @@ a {
     width    : 1.875vw;
 }
 
-
-
-
 .flex_soc {
     display    : flex;
     align-items: center;
@@ -371,24 +279,10 @@ a {
     right   : 15%;
     z-index : 0;
     width   : 88.65vw;
-    top     : 9vw;
+    top     : 5vw;
     height  : 57.1vw;
 }
 
-.shnurki2 {
-    display: none;
-    width  : 117%;
-}
-
-
 .golub2 {
     padding-top: 10vw;
-}
-
-.display_none {
-    display: none;
-}
-
-.icon_menu {
-    right: 0;
 }
