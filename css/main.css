@@ -285,4 +285,5 @@ a {
 
 .golub2 {
     padding-top: 10vw;
+    transform: translate(10vw, 5vw);
 }

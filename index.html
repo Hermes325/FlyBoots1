@@ -22,7 +22,7 @@
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
             var currentScrollPos = window.pageYOffset;
-            if ((prevScrollpos > currentScrollPos) && (window.scrollY >= 350)) {
+            if ((prevScrollpos > currentScrollPos) && (window.scrollY >= 450)) {
                 document.getElementById("navbar").style.top = "0";
                 document.getElementById("navbar").style.display = "flex";
                 document.getElementById("navbar").style.transition = "0.3s";
@@ -123,7 +123,7 @@
         <img src="./картинки/shnurki2.svg" alt="shnurki2" style="display: none;">
         <img src="./картинки/Subtract.png" alt="shnurki1" class="shnurki1">
 
-        <div class="flex_end_end golubi">
+        <div class="flex_end_end golubi" style="transform:translate(-25vw, -10vw) ;">
             <img src="./картинки/golub1.svg" alt="golub1">
             <img src="./картинки/golub2.svg" alt="golub2" class="golub2">
         </div>
