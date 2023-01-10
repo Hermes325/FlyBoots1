@@ -140,6 +140,7 @@ a {
     position: absolute;
     bottom  : 5vw;
     z-index : 1;
+    transform: translateY(-2vw);
 }
 
 .grid_ramochka {

@@ -5,6 +5,24 @@
 
 
 @media screen and (max-width: 479px) {
+
+    .h1_transfer {
+        transform: translateX(-10vw);
+    }
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
     .cata {
         position         : relative;
         width            : 75vw;
@@ -107,6 +125,7 @@
     .krugmain {
         width : 70.459vw;
         height: 70.459vw;
+        top: 12%;
     }
 
 
@@ -231,7 +250,10 @@
     .krugmain {
         width : 70.459vw;
         height: 70.459vw;
+        top: 22%;
+        left: 15%;
     }
+
 
     .flex_main {
         flex-direction: column;

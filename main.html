@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="css/HIW.css" />
     <link rel="stylesheet" type="text/css" href="css/media.css" />
     <link rel="stylesheet" type="text/css" href="css/nav.css" />
-    <link rel="stylesheet" type="text/css" href="css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="css/planshet.css" />
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function () {
@@ -41,14 +41,17 @@
     <header>
 
         <div class="background"></div>
-        <nav class="navbar" id="navbar">
-            <img class="navbar-logo" src="./картинки/logo_mini.png" alt="logo_mini">
+        <nav class="navbar">
+            <form action="/main.html">
+                <button>
+                    <img class="navbar-logo" src="./картинки/logo_mini.png" alt="logo_mini">
+                </button>
+            </form>
             <button class="navbar-burger" onclick="toggleMenu()"></button>
         </nav>
 
-
         <nav class="menu" onclick="toggleMenu()">
-            <a href="#catalog" style="animation-delay: 0.1s">Каталог</a>
+            <a href="/catalog.html" style="animation-delay: 0.1s">Каталог</a>
             <a href="#Как_это_работает?" style="animation-delay: 0.2s">Как это работает ?</a>
             <a href="#A_what_with_delivery_?" style="animation-delay: 0.3s">А что с доставкой ?</a>
             <a href="#About_us" style="animation-delay: 0.4s">О нас</a>
@@ -58,7 +61,7 @@
         <script type="text/javascript">
             const toggleMenu = () => {
                 document.body.classList.toggle("open");
-            };
+            };  
         </script>
 
     </header>
@@ -66,15 +69,14 @@
     <main>
         <div class="flex_main">
             <div>
-                <h1 style="padding-top:6vw ;">
+                <h1 style="padding-top:6vw ;" class="h1_transfer">
                     Fly <br> Boots
                 </h1>
             </div>
 
             <div class="krugmain flex_center">
-                <img src="./картинки/FBlogo.svg" alt="FBlogo" class="Logotip" style="transform: translateY(-2vw);">
+                <img src="./картинки/FBlogo.svg" alt="FBlogo" class="Logotip">
             </div>
-
 
 
             <div class="praviy_text_flex">
@@ -123,7 +125,7 @@
         <img src="./картинки/shnurki2.svg" alt="shnurki2" style="display: none;">
         <img src="./картинки/Subtract.png" alt="shnurki1" class="shnurki1">
 
-        <div class="flex_end_end golubi" style="transform:translate(-25vw, -10vw) ;">
+        <div class="flex_end_end golubi" style="transform:translate(-25vw, -10vw);">
             <img src="./картинки/golub1.svg" alt="golub1">
             <img src="./картинки/golub2.svg" alt="golub2" class="golub2">
         </div>
@@ -152,21 +154,21 @@
         </div>
 
         <div class="container">
-            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_child">
+            <a href="./catalog.html" class="ramochka_child">
                 <div class="btn">
                     Кроссовки
                     <img src="./картинки/Vector.svg" alt="купить">
                 </div>
             </a>
 
-            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_man">
+            <a href="./catalog.html" class="ramochka_man">
                 <div class="btn">
                     Одежда
                     <img src="./картинки/Vector.svg" alt="купить">
                 </div>
             </a>
 
-            <a href="//НАДО СЮДА ПРОПИСАТЬ ССЫЛКУ" class="ramochka_woman">
+            <a href="./catalog.html" class="ramochka_woman">
                 <div class="btn">
                     Аксессуары
                     <img src="./картинки/Vector.svg" alt="купить">
@@ -473,7 +475,6 @@
                     <h5 class="text_avito_main">
                         Мы на <br>
                         Avito
-
                     </h5>
                     <img src="./картинки/avito.svg" alt="avito_icon" style="transform: translate(7.3vw, 1vw);">
                 </a>
